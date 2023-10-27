@@ -2,7 +2,7 @@
 This is simple quiz Application Admin(superuser) role is manage users and create quiz questions. user role is take quiz
 
 first INSTALL requirements.txt using cmd
-pip install -r requirements.txt
+* pip install -r requirements.txt
 
 Login and Register Functionalities
 ====================================
