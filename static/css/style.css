@@ -1,0 +1,13 @@
+.login-and-register-main{
+    display: flex;
+    height: 91dvh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.quizcol>.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

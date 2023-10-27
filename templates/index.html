@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Welcome to Today's Quiz</h1>
+
+<div class="container">
+    <p>Username : <b>{{ user.username }}</b></p>
+    <p>email : {{ user.email }}</p>
+    {{userprofileform.contact_number}}
+
+    <h2>Instructions</h2>
+    <ol>
+        <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, error facere. Ipsam!</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum beatae voluptatum rerum!</li>
+    </ol>
+
+    <a href="{% url 'quizapp:quiz' %}" class="btn btn-primary">View Questions</a>
+</div>
+
+   
+{% endblock %}
